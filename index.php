@@ -2,7 +2,7 @@
 <?php
 $servername = "mysql-radeckikacper.alwaysdata.net";
 $username = "217137";
-$password = "Ambulans#1";
+$password = "nie dla psa";
 $dbname = "radeckikacper_mysql";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
