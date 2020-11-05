@@ -2,9 +2,9 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
-    <h1>Kacper Radecki nr 10</h1>
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a>
-   </head>
+    <h1>Kacper Radecki nr 10</h1>
+</head>
 <body>
 <?php
 $servername = "mysql-radeckikacper.alwaysdata.net";
