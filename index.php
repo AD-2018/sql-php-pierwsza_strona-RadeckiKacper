@@ -1,13 +1,3 @@
-</html>
- <!DOCTYPE html>
-<html>
-<head>
- <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a>
-  
 <?php
 $servername = "mysql-radeckikacper.alwaysdata.net";
 $username = "217137";
@@ -33,5 +23,3 @@ echo "Connected successfully";
     }
 
     echo('</table>');
- </body>
- </html>
