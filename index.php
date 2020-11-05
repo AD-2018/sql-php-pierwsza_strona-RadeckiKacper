@@ -2,7 +2,6 @@
  <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -33,4 +32,6 @@ echo "Connected successfully";
     }
 
     echo('</table>');
+ </body>
+ </html>
  
