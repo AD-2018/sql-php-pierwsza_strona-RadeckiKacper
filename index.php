@@ -29,5 +29,6 @@ echo "Connected successfully";
     }
 
     echo('</table>');
+  ?>
   </body>
   </html>
