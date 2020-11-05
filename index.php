@@ -1,5 +1,3 @@
-
-
 <?php
 $servername = "mysql-radeckikacper.alwaysdata.net";
 $username = "217137";
