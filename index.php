@@ -12,6 +12,7 @@ $dbname = "radeckikacper_mysql";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 $sql = "SELECT * FROM pracownicy";
+  echo("zadanie 1");
 $wynik = mysqli_query($conn, $sql);
 
 if ($conn->connect_error) {
