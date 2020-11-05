@@ -3,6 +3,10 @@
 <head>
 <link rel="stylesheet" href="style.css">
     <h1>Kacper Radecki nr 10</h1>
+    <div>
+       <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
+       <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
+    </div>
 </head>
 <body>
 <?php
