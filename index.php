@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 <?php
 $servername = "mysql-radeckikacper.alwaysdata.net";
 $username = "217137";
@@ -23,3 +29,5 @@ echo "Connected successfully";
     }
 
     echo('</table>');
+  </body>
+  </html>
