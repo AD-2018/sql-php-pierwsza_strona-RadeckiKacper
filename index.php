@@ -25,4 +25,4 @@ echo "Connected successfully";
     }
 
     echo('</table>');
-  </html>
+  
