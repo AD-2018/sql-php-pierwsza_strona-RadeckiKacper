@@ -16,8 +16,12 @@
 </html>
 
 <?php
-require_once("lib.php");
+$servername = "mysql-radeckikacper.alwaysdata.net";
+$username = "217137";
+$password = "Niedlapsa1";
+$dbname = "radeckikacper_mysql";
 
+$conn = new mysqli($servername, $username, $password, $dbname);
 echo("<br>Zad 1 <br>");
 $sql = "SELECT * FROM pracownicy, organizacja where id_org=dzial";
 echo($sql);
