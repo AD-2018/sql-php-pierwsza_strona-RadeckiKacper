@@ -32,7 +32,7 @@ echo "Connected successfully";
 
     while($wiersz=mysqli_fetch_assoc($wynik)){
         echo('<tr>');
-        echo('<td>'.$wiersz['imie'].'</td>'.'<td>'.$wiersz['zarobki'].'</td>');
+        echo('<td>'.$wiersz['imie'].'</td>');
         echo('</tr>');
     }
 
