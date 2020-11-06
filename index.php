@@ -38,8 +38,8 @@ echo "Connected successfully";
 
     echo('</table>');
     
-    $sql = "SELECT * FROM pracownicy";
-    echo("zadanie 2");
+    $sql = "SELECT imie FROM pracownicy where dzial=2 or 3";
+    echo("zadanie 1");
 $wynik = mysqli_query($conn, $sql);
 
 if ($conn->connect_error) {
@@ -48,11 +48,11 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 
     echo('<table border="1">');
-    echo('<th>Imie</th><th>zarobki</th>');
+    echo('<th>Imie</th>');
 
     while($wiersz=mysqli_fetch_assoc($wynik)){
         echo('<tr>');
-        echo('<td>'.$wiersz['imie'].'</td>'.'<td>'.$wiersz['zarobki'].'</td>');
+        echo('<td>'.$wiersz['imie'].'</td>');
         echo('</tr>');
     }
 
