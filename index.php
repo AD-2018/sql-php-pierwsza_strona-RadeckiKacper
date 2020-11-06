@@ -20,7 +20,7 @@ $dbname = "radeckikacper_mysql";
 $conn = new mysqli($servername, $username, $password, $dbname);
 $sql = "SELECT imie FROM pracownicy where dzial=2";
     echo("zadanie 1");
-    echo($sql)
+    echo($sql);
 $wynik = mysqli_query($conn, $sql);
 
 if ($conn->connect_error) {
