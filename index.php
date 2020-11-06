@@ -39,7 +39,7 @@ echo "Connected successfully";
 
     echo('</table>');
     
-    $sql = "SELECT  imie FROM pracownicy WHERE dzial=2 and dzial=3";
+    $sql = "SELECT imie FROM pracownicy where (dzial=2) or (dzial=3)";
     echo("zadanie 1");
 $wynik = mysqli_query($conn, $sql);
 
