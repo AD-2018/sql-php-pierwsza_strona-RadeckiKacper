@@ -28,7 +28,7 @@ if ($conn->connect_error) {
 echo "Connected successfully";
 
     echo('<table border="1">');
-    echo('<th>Imie</th><th>zarobki</th>');
+    echo('<th>Imie</th>');
 
     while($wiersz=mysqli_fetch_assoc($wynik)){
         echo('<tr>');
