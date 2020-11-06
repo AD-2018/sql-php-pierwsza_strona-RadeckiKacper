@@ -40,6 +40,7 @@ echo "Connected successfully";
     
     $sql = "SELECT imie FROM pracownicy where (dzial=2) or (dzial=3)";
     echo("zadanie 1");
+    echo($sql);
 $wynik = mysqli_query($conn, $sql);
 
 if ($conn->connect_error) {
