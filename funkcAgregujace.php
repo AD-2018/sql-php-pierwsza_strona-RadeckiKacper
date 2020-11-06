@@ -2,10 +2,18 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a>
-    <h1>Kacper Radecki nr 10</h1>
 </head>
 <body>
+
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">GitHub</a>
+<div class="nav">
+    <a href="index.php">Pracownicy</a>
+    <a href="orgPracownicy.php">Pracownicy i Organizacja</a>
+    <a href="funcAgregujace.php">Funkcje agregujące</a>
+    <h3>Kacper Radecki</h3>
+</div>
+</body>
+</html>
 <?php
 $servername = "mysql-radeckikacper.alwaysdata.net";
 $username = "217137";
@@ -13,45 +21,69 @@ $password = "Niedlapsa1";
 $dbname = "radeckikacper_mysql";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
-$sql = "SELECT * FROM pracownicy";
-    echo("zadanie 1");
-$wynik = mysqli_query($conn, $sql);
+echo("<br>Zad 1 <br>");
+$sql = "SELECT sum(zarobki) as suma FROM pracownicy";
+echo($sql);
 
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
+$result = mysqli_query($conn, $sql);
+if ( $result) {
+        echo "<li>ok";
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
 
-    echo('<table border="1">');
-    echo('<th>Imie</th><th>zarobki</th>');
+echo('<table border="1">');
+    echo('<th>Suma</th>');
 
-    while($wiersz=mysqli_fetch_assoc($wynik)){
+    while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
-        echo('<td>'.$wiersz['imie'].'</td>'.'<td>'.$wiersz['zarobki'].'</td>');
+        echo('<td>'.$row['suma'].'</td>');
+        echo('</tr>');
+    }
+
+echo('</table>');
+
+echo("<br>Zad 2 <br>");
+$sql = "SELECT sum(zarobki) as suma FROM pracownicy where imie like '%a'";
+echo($sql);
+
+$result = mysqli_query($conn, $sql);
+if ( $result) {
+        echo "<li>ok";
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+
+echo('<table border="1">');
+    echo('<th>Suma</th>');
+
+    while($row=mysqli_fetch_assoc($result)){
+        echo('<tr>');
+        echo('<td>'.$row['suma'].'</td>');
         echo('</tr>');
     }
 
     echo('</table>');
-    
-    $sql = "SELECT * FROM pracownicy";
-    echo("zadanie 2");
-$wynik = mysqli_query($conn, $sql);
 
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-echo "Connected successfully";
+echo("<br>Zad 3 <br>");
+$sql = "SELECT sum(zarobki) as suma FROM pracownicy where imie not like '%a' and (dzial=2 or dzial=3)";
+echo($sql);
 
-    echo('<table border="1">');
-    echo('<th>Imie</th><th>zarobki</th>');
+$result = mysqli_query($conn, $sql);
+if ( $result) {
+        echo "<li>ok";
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
 
-    while($wiersz=mysqli_fetch_assoc($wynik)){
+echo('<table border="1">');
+    echo('<th>Suma</th>');
+
+    while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
-        echo('<td>'.$wiersz['imie'].'</td>'.'<td>'.$wiersz['zarobki'].'</td>');
+        echo('<td>'.$row['suma'].'</td>');
         echo('</tr>');
     }
 
     echo('</table>');
-  ?>
-  </body>
-  </html>
+?>
