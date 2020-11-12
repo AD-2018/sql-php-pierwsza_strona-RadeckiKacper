@@ -9,7 +9,7 @@
 <div class="nav">
     <a href="index.php">Pracownicy</a>
     <a href="orgPracownicy.php">Pracownicy i Organizacja</a></br>
-    <a href="funcAgregujace.php">Funkcje agregujące</a></br>
+    <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
     <a href="data.php">Data i Czas</a></br>
     <h3>Kacper Radecki</h3>
 </div>
