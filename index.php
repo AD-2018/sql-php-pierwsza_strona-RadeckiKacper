@@ -2,7 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a>
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a></br>
     <div>
        <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
        <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
