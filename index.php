@@ -6,6 +6,7 @@
     <div>
        <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
        <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
+        <a href="data.php">Data i Czas</a></br>
     </div>
     <h1>Kacper Radecki nr 10</h1>
 </head>
