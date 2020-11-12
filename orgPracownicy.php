@@ -219,6 +219,7 @@ echo('<table border="1">');
     }
 
     echo('</table>');
+
 echo("<h3> LIMIT </h3>");
 echo("<br>Zad 1 <br>");
 $sql = "SELECT * FROM pracownicy, organizacja where id_org=dzial and dzial=4 order by zarobki desc limit 2";
@@ -285,8 +286,4 @@ echo('<table border="1">');
     }
 
     echo('</table>');
-
-
-
-
 ?>
