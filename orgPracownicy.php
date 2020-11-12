@@ -222,7 +222,7 @@ echo('<table border="1">');
 echo (<h3>LIMIT</h3>);
 
 echo("<br>Zad 5 <br>");
-$sql = "SELECT * FROM pracownicy, organizacja where dzial= 4 order by zarobki asc limit 2";
+$sql = "SELECT * FROM pracownicy, where dzial= 4 order by zarobki asc limit 2";
 echo($sql);
 
 $result = mysqli_query($conn, $sql);
