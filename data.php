@@ -8,9 +8,9 @@
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">GitHub</a>
 <div class="nav">
     <a href="index.php">Pracownicy</a>
-    <a href="orgPracownicy.php">Pracownicy i Organizacja</a>
-    <a href="funcAgregujace.php">Funkcje agregujące</a>
-    <a href="data.php">Data i Czas</a>
+    <a href="orgPracownicy.php">Pracownicy i Organizacja</a></br>
+    <a href="funcAgregujace.php">Funkcje agregujące</a></br>
+    <a href="data.php">Data i Czas</a></br>
     <h3>Kacper Radecki</h3>
 </div>
 </body>
