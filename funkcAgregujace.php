@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">GitHub</a>
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">GitHub</a></br>
 <div class="nav">
     <a href="index.php">Pracownicy</a>
     <a href="orgPracownicy.php">Pracownicy i Organizacja</a></br>
