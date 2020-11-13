@@ -2,14 +2,14 @@ table, th, td {
   border: 1px solid black;
 }
 th {
-  background-color: salmon;
+  background-color: rgb(180, 53, 230);
 }
 table {
   border-collapse: collapse;
   width: 50%;
 }
 body{
-    background-color: bisque;
+    background-color: rgb(142, 52, 226);
 }
 td {
   padding: 5px;
@@ -25,6 +25,7 @@ a {
     width: 4em;
 }
 a:hover{
-  background-color: cyan;
+  background-color: rgb(37, 78, 41);
   padding: 1em;
 }
+
