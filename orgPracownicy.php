@@ -2,18 +2,22 @@
 <html>
 <head>
 <link rel="stylesheet" href="style.css">
+    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a></br>
+    <br/>
+    <br/>
+    <div>
+       <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
+        <br/>
+        <br/>
+       <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
+        <br/>
+        <br/>
+        <a href="data.php">Data i Czas</a></br>
+    <br/>
+    </div>
+    <h1>Kacper Radecki nr 10</h1>
 </head>
 <body>
-
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">GitHub</a></br>
-<div class="nav">
-    <a href="index.php">Pracownicy</a>
-    <a href="orgPracownicy.php">Pracownicy i Organizacja</a></br>
-    <a href="funcAgregujace.php">Funkcje agregujące</a></br>
-    <a href="data.php">Data i Czas</a></br>
-    <h3>Kacper Radecki</h3>
-</div>
-</body>
 </html>
 
 <?php
