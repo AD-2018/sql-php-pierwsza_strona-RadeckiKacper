@@ -14,6 +14,9 @@
         <br/>
         <a href="data.php">Data i Czas</a></br>
     <br/>
+    <br/>
+        <a href="formularz.html">Formularz</a></br>
+    <br/>
     </div>
     <h1>Kacper Radecki nr 10</h1>
 </head>
