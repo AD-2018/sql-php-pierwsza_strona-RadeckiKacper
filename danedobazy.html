@@ -22,8 +22,12 @@
    		<input type="submit" value="Zapisz w zmiennej $_POST['id_prawownicy']">
 </form>
 <?php
-require_once("lib.php");
- echo ("<br>Zad.1<br>");
+$servername = "mysql-radeckikacper.alwaysdata.net";
+$username = "217137";
+$password = "Niedlapsa1";
+$dbname = "radeckikacper_mysql";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
 $sql = "SELECT * FROM pracownicy";
 echo ("<li>".$sql);
   $result = mysqli_query($conn, $sql);
