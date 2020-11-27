@@ -5,7 +5,7 @@
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a></br>
     <br/>
     <br/>
-    <div>
+ <div>
        <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
         <br/>
         <br/>
@@ -23,6 +23,7 @@
 <br/>
         <a href="danedobazy.html">Dane do Bazy</a></br>
     <br/>
+    </div>
     </div>
     <h1>Kacper Radecki nr 10</h1>
 </head>
