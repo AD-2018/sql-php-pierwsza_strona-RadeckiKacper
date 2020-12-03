@@ -18,11 +18,9 @@
         <a href="formularz.html">Formularz</a></br>
     <br/>
 <br/>
-        <a href="insert.php">insert</a></br>
+        <a href="insert.php">Dane do Bazy</a></br>
     <br/>
-<br/>
-        <a href="danedobazy.php">Dane do Bazy</a></br>
-    <br/>
+
     </div>
     <h1>Kacper Radecki nr 10</h1>
 </head>
