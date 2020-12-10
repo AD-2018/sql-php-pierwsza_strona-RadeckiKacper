@@ -49,7 +49,7 @@ $sql = "SELECT * FROM biblTytul";
 
     while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
-        echo('<td>'.$row['id'].'</td><td>'.$row['tytuł'].'</td>');
+        echo('<td>'.$row['id'].'</td><td>'.$row['tytul'].'</td>');
         echo('</tr>');
     }
 
@@ -62,7 +62,7 @@ $sql = "SELECT * FROM biblAutor_biblTytul";
 
     while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
-        echo('<td>'.$row['id'].'</td><td>'.$row['biblAutor_id'].'</td><td>'.$row['biblTytuł_id'].'</td>');
+        echo('<td>'.$row['id'].'</td><td>'.$row['biblAutor_id'].'</td><td>'.$row['biblTytul_id'].'</td>');
         echo('</tr>');
     }
     echo('</table>');
