@@ -20,6 +20,9 @@
 <br/>
         <a href="insert.php">Dane do Bazy</a></br>
     <br/>
+<br/>
+        <a href="ksiazki.php">Książki</a></br>
+    <br/>
 
     </div>
     <h1>Kacper Radecki nr 10</h1>
