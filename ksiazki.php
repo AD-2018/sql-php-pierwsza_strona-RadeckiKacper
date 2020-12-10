@@ -27,42 +27,56 @@
 <body>
 <?php
     require_once("lib.php");
-echo("<h3>Tabela Autorów</h3>");
+echo("<br>Autorzy<br>");
 $sql = "SELECT * FROM biblAutor";
+echo($sql);
 $result = mysqli_query($conn, $sql);
-    echo('<table border="1">');
-    echo('<th>id</th><th>Autor</th>');
-
+if ( $result) {
+        echo "<li>ok";
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+echo('<table border="1">');
+    echo('<th>Id</th><th>Autor</th>');
     while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
         echo('<td>'.$row['id'].'</td><td>'.$row['autor'].'</td>');
         echo('</tr>');
     }
-
     echo('</table>');
 
-echo("<h3>Tabela Tytułów</h3>");
+echo("<br>Tytuły<br>");
 $sql = "SELECT * FROM biblTytul";
-    $result = mysqli_query($conn, $sql);
-    echo('<table border="1">');
-    echo('<th>id</th><th>Tytuł</th>');
-
+echo($sql);
+$result = mysqli_query($conn, $sql);
+if ( $result) {
+        echo "<li>ok";
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+echo('<table border="1">');
+   echo('<th>Id</th><th>Tytul</th>');
     while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
         echo('<td>'.$row['id'].'</td><td>'.$row['tytul'].'</td>');
         echo('</tr>');
     }
-
     echo('</table>');
-echo("<h3>Połączone</h3>");
-$sql = "SELECT * FROM biblAutor_biblTytul";
-    $result = mysqli_query($conn, $sql);
-        echo('<table border="1">');
-    echo('<th>id</th><th>Autor</th><th>Tytuł</th>');
 
+echo("<br>WSZYSTKO<br>");
+$sql = "SELECT id_book, autor, tytul FROM bibl_book, biblTytul, biblAutor WHERE biblTytul.id = bibl_book.biblTytul_id AND biblAutor.id = bibl_book.biblAutor_id";
+echo($sql);
+$result = mysqli_query($conn, $sql);
+if ( $result) {
+        echo "<li>ok";
+    } else {
+      echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+    }
+echo('<table border="1">');
+    echo('<th>Id</th><th>Autor</th><th>Tytul</th>');
     while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
-        echo('<td>'.$row['id'].'</td><td>'.$row['biblAutor_id'].'</td><td>'.$row['biblTytul_id'].'</td>');
+        echo('<td>'.$row['id_book'].'</td><td>'.$row['autor'].'</td><td>'.$row['tytul'].'</td>');
         echo('</tr>');
     }
     echo('</table>');
