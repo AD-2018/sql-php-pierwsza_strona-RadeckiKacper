@@ -28,69 +28,56 @@
 <?php
    require_once("lib.php");
 
-echo ("<br>Autorzy<br>");
-$sql = "SELECT * FROM bibl_autor";
-echo ("<li>".$sql);
-  $result = mysqli_query($conn, $sql);
-    if ( $result) {
-        echo "<li>ok";
+
+echo("<br>Autorzy<br>");
+$sql = "SELECT * FROM biblAutor";
+$result = mysqli_query($conn, $sql);
+if ( $result) {
+        echo "<li>ok<br>";
     } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
-
-
 echo('<select name="Autor">');
-
     while($row=mysqli_fetch_assoc($result)){
         echo'<option value="'.$row['id_autor'].'">';
         echo($row['autor']);
         echo"</option>"; 
     }
-echo('</select>');
+echo('</select>.<br>');
 
-echo("<br>");
-
-echo ("<br>Tytuły<br>");
-$sql = "SELECT * FROM bibl_tytul";
-echo ("<li>".$sql);
-  $result = mysqli_query($conn, $sql);
-    if ( $result) {
-        echo "<li>ok";
+echo("<br>Tytuły<br>");
+$sql = "SELECT * FROM biblTytul";
+$result = mysqli_query($conn, $sql);
+if ( $result) {
+        echo "<li>ok<br>";
     } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
-
-
 echo('<select name="Tytul">');
-
     while($row=mysqli_fetch_assoc($result)){
         echo'<option value="'.$row['id_tytul'].'">';
         echo($row['tytul']);
         echo"</option>"; 
     }
-echo('</select>');
+echo('</select>.<br>');
+    
 
-echo("<br>");
-echo("<br>KSIĄŻKI I AUTORZY<br>");
-$sql = "SELECT id_book, autor, tytul FROM bibl_book, bibl_tytul, bibl_autor WHERE bibl_tytul.id_tytul = bibl_book.id_tytul AND bibl_autor.id_autor = bibl_book.id_autor";
-echo($sql);
-
+echo("<br>WSZYSTKO<br>");
+$sql = "SELECT id_book, autor, tytul FROM bibl_book, biblTytul, biblAutor WHERE biblTytul.id = bibl_book.biblTytul_id AND biblAutor.id = bibl_book.biblAutor_id";
 $result = mysqli_query($conn, $sql);
 if ( $result) {
         echo "<li>ok";
     } else {
       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
     }
-
 echo('<table border="1">');
-    echo('<th>ID BOOK</th><th>ID AUTOR</th><th>ID TYTUL</th>');
-
+    echo('<th>Id</th><th>Autor</th><th>Tytuł</th>');
     while($row=mysqli_fetch_assoc($result)){
         echo('<tr>');
         echo('<td>'.$row['id_book'].'</td><td>'.$row['autor'].'</td><td>'.$row['tytul'].'</td>');
         echo('</tr>');
     }
-
-echo('</table>');
-
+    echo('</table>');
 ?>
+</body>
+</html>
