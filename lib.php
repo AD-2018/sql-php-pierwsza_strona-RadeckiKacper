@@ -9,8 +9,4 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-sdrgedzfbdfx
-bhdfgb
-dfgb
-dba_fetchdf
 ?>
