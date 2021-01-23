@@ -9,5 +9,5 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-cgfhbvnxvcbngf
+KOchamy pana Dobagałę <3
 ?>
