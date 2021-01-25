@@ -15,7 +15,7 @@
         <a href="data.php">Data i Czas</a></br>
     <br/>
     <br/>
-        <a href="formularz.html">Formularz</a></br>
+        <a href="pracownicy/formularz.html">Formularz</a></br>
     <br/>
 <br/>
         <a href="insert.php">Dane do Bazy</a></br>
