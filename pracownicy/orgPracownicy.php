@@ -9,6 +9,7 @@
     <br/>
        <a href="/index.php">Strona Główna</a><br/>
         <br/>
+        <br/>
        <a href="pracownicy/orgPracownicy.php">organizacjaPracownicy</a><br/>
         <br/>
         <br/>
