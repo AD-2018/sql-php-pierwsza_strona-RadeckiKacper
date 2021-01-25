@@ -15,14 +15,15 @@
         <a href="pracownicy/data.php">Data i Czas</a></br>
     <br/>
     <br/>
-        <a href="pracownicy/formularz.html">Formularz</a></br>
+        <a href="pracownicy/pracownicy/formularz.html">Formularz</a></br>
     <br/>
 <br/>
-        <a href="pracownicy/insert.php">insert</a></br>
+        <a href="pracownicy/insert.php">Dane do Bazy</a></br>
     <br/>
 <br/>
-        <a href="pracownicy/danedobazy.html">Dane do Bazy</a></br>
+        <a href="biblioteka/ksiazki.php">Książki</a></br>
     <br/>
+
     </div>
     <h1>Kacper Radecki nr 10</h1>
 </head>

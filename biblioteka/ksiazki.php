@@ -6,20 +6,25 @@
     <br/>
     <br/>
     <div>
-       <a href="orgPracownicy.php">organizacjaPracownicy.php</a><br/>
+       <a href="pracownicy/orgPracownicy.php">organizacjaPracownicy.php</a><br/>
         <br/>
         <br/>
-       <a href="funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
+       <a href="pracownicy/funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
         <br/>
         <br/>
-        <a href="data.php">Data i Czas</a></br>
+        <a href="pracownicy/data.php">Data i Czas</a></br>
     <br/>
     <br/>
-        <a href="formularz.html">Formularz</a></br>
+        <a href="pracownicy/pracownicy/formularz.html">Formularz</a></br>
     <br/>
 <br/>
-        <a href="insert.php">Dane do Bazy</a></br>
+        <a href="pracownicy/insert.php">Dane do Bazy</a></br>
     <br/>
+<br/>
+        <a href="biblioteka/ksiazki.php">Książki</a></br>
+    <br/>
+
+    </div>
 
     </div>
     <h1>Kacper Radecki nr 10</h1>
