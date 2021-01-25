@@ -21,7 +21,7 @@
         <a href="pracownicy/insert.php">Dane do Bazy</a></br>
     <br/>
 <br/>
-        <a href="pracownicy/ksiazki.php">Książki</a></br>
+        <a href="biblioteka/ksiazki.php">Książki</a></br>
     <br/>
 
     </div>
