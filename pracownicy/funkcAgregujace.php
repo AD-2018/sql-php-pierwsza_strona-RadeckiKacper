@@ -5,11 +5,14 @@
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a></br>
     <br/>
     <br/>
-    <div>
-       <a href="pracownicy/orgPracownicy.php">organizacjaPracownicy.php</a><br/>
+    <br/>
+       <a href="/index.php">Strona Główna</a><br/>
         <br/>
         <br/>
-       <a href="pracownicy/funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
+       <a href="pracownicy/orgPracownicy.php">organizacjaPracownicy</a><br/>
+        <br/>
+        <br/>
+       <a href="pracownicy/funkcAgregujace.php">funkcjeAgregujace</a><br/>
         <br/>
         <br/>
         <a href="pracownicy/data.php">Data i Czas</a></br>
@@ -17,12 +20,12 @@
     <br/>
         <a href="pracownicy/pracownicy/formularz.html">Formularz</a></br>
     <br/>
-<br/>
-        <a href="pracownicy/insert.php">Dane do Bazy</a></br>
-    <br/>
+
 <br/>
         <a href="biblioteka/ksiazki.php">Książki</a></br>
     <br/>
+
+    </div>
 
     </div>
     <h1>Kacper Radecki nr 10</h1>
