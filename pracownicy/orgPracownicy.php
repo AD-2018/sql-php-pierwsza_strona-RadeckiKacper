@@ -7,7 +7,7 @@
     <br/>
     <div>
     <br/>
-       <a href="index.php">Strona Główna</a><br/>
+       <a href="/index.php">Strona Główna</a><br/>
         <br/>
        <a href="pracownicy/orgPracownicy.php">organizacjaPracownicy</a><br/>
         <br/>
