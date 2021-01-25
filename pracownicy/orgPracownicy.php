@@ -6,10 +6,13 @@
     <br/>
     <br/>
     <div>
-       <a href="pracownicy/orgPracownicy.php">organizacjaPracownicy.php</a><br/>
+    <br/>
+       <a href="index.php">Strona Główna</a><br/>
+        <br/>
+       <a href="pracownicy/orgPracownicy.php">organizacjaPracownicy</a><br/>
         <br/>
         <br/>
-       <a href="pracownicy/funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
+       <a href="pracownicy/funkcAgregujace.php">funkcjeAgregujace</a><br/>
         <br/>
         <br/>
         <a href="pracownicy/data.php">Data i Czas</a></br>
