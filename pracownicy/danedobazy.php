@@ -21,7 +21,7 @@
    		<input type="submit" value="Usuń Pracownika">
 	</form>
 <?php
-	require_once "lib.php";
+	require_once "connect.php";
 
 $sql = "SELECT * FROM pracownicy";
 echo("<h3>ZADANIE PRÓBA</h3>");
