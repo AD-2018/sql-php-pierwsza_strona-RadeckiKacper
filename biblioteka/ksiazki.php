@@ -13,41 +13,22 @@
     </div>
   </div>  
   <div class="menu">
-  <a class="link" href="/index.php">Strona Główna</a>
-  <br/>
-  <br/>
-  <br/>
-  <br/>
-    <a class="link" href="/pracownicy/orgPracownicy.php">Pracownicy i organizacja</a>
+  <a href="/index.php">Strona Główna</a><br/>
+        <br/>
+        <br/>
+       <a href="/pracownicy/orgPracownicy.php">organizacjaPracownicy</a><br/>
+        <br/>
+        <br/>
+       <a href="/pracownicy/funkcAgregujace.php">funkcjeAgregujace</a><br/>
+        <br/>
+        <br/>
+        <a href="/pracownicy/data.php">Data i Czas</a></br>
     <br/>
-  <br/>
-  <br/>
-  <br/>
-    <a class="link" href="/pracownicy/funcAgregujace.php">Funkcje Agregujące</a>
+   
+
+<br/>
+        <a href="/biblioteka/ksiazki.php">Książki</a></br>
     <br/>
-  <br/>
-  <br/>
-  <br/>
-    <a class="link" href="/pracownicy/dataczas.php">Data i czas</a>
-    <br/>
-  <br/>
-  <br/>
-  <br/>
-    <a class="link" href="/pracownicy/formularz.html">Formularz</a>
-    <br/>
-  <br/>
-  <br/>
-  <br/>
-    <a class="link" href="/pracownicy/daneDoBazy.php">Dane do bazy</a>
-    <br/>
-  <br/>
-  <br/>
-  <br/>
-    <a class="link" href="/biblioteka/ksiazki.php">Książki</a>
-    <br/>
-  <br/>
-  <br/>
-  <br/>
   </div> 
   <div class="strona">
 <?php
