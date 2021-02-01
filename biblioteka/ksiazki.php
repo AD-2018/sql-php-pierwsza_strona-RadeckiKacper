@@ -37,7 +37,7 @@
   </div> 
   <div class="strona">
 <?php
-require_once("../lib.php");
+require_once("../connect.php");
   
   echo ("<br>Autorzy<br>");
 $sql = "SELECT * FROM bibl_autor";
