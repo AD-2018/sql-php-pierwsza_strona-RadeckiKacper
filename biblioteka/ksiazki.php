@@ -10,7 +10,7 @@
     <h1>Kacper Radecki nr 10</h1>
 </head>
 <body>
-<div>
+    <div>
     <br/>
        <a href="/index.php">Strona Główna</a><br/>
         <br/>
