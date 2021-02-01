@@ -6,7 +6,11 @@
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a></br>
     <br/>
     <br/>
-    <div>
+    
+    <h1>Kacper Radecki nr 10</h1>
+</head>
+<body>
+<div>
     <br/>
        <a href="/index.php">Strona Główna</a><br/>
         <br/>
@@ -26,9 +30,6 @@
     <br/>
 
     </div>
-    <h1>Kacper Radecki nr 10</h1>
-</head>
-<body>
 <?php
    require_once("connect.php");
 

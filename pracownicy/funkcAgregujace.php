@@ -3,6 +3,11 @@
 <head>
 <title>Kacper Radecki</title>
 <link rel="stylesheet" href="/style.css">
+    
+    <h1>Kacper Radecki nr 10</h1>
+</head>
+<body>
+<div>
     <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a></br>
     <br/>
     <br/>
@@ -18,18 +23,11 @@
         <br/>
         <a href="/pracownicy/data.php">Data i Czas</a></br>
     <br/>
-    
-
-<br/>
+    <br/>
         <a href="/biblioteka/ksiazki.php">Książki</a></br>
     <br/>
 
     </div>
-
-    </div>
-    <h1>Kacper Radecki nr 10</h1>
-</head>
-<body>
 </html>
 <?php
 $servername = "mysql-radeckikacper.alwaysdata.net";
