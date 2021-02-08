@@ -18,23 +18,27 @@ body {
  }
 
  .header {
+    width: 55vh;
      background-color: rgb(150, 102, 212);
      height: 25vh;
       }
 
  .sidebar {
+    width: 50vh;
     background-color: rgb(189, 82, 88);
     height: 20vh;
    
  }
 
  .menu_item {
+    width: 45vh;
     background-color: rgb(71, 68, 109);
     height: 15vh;
      
  }
 
  .footer {
+    width: 40vh;
     background-color: rgb(180, 147, 202);
     height: 10vh;
  }
