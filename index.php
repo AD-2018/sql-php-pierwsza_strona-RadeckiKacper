@@ -27,6 +27,9 @@
 <br/>
         <a href="/biblioteka/ksiazki.php">Książki</a></br>
     <br/>
+    <br/>
+        <a href="/flexbox/index.html">Flexbox</a></br>
+    <br/>
 
     </div>
 <?php
