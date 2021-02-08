@@ -14,31 +14,31 @@ body {
      width: 60%;
      text-align: center;
      height: 30vh;
-     width: 80%
+     
  }
 
  .header {
      background-color: rgb(150, 102, 212);
-     height: 30vh;
-     width: 60%
+     height: 25vh;
+     
 
  }
 
  .sidebar {
     background-color: rgb(189, 82, 88);
-    height: 30vh;
-    width: 40%
+    height: 20vh;
+   
  }
 
  .menu_item {
     background-color: rgb(71, 68, 109);
-    height: 30vh;
-    width: 20%
+    height: 15vh;
+     
  }
 
  .footer {
     background-color: rgb(180, 147, 202);
-    height: 20vh;
+    height: 10vh;
  }
 
 .item_link {
