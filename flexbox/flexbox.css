@@ -24,12 +24,12 @@ body {
 
  .sidebar {
     background-color: rgb(189, 82, 88);
-    height: 20vh;
+    height: 30vh;
  }
 
  .menu_item {
     background-color: rgb(71, 68, 109);
-    height: 20vh;
+    height: 30vh;
  }
 
  .footer {
