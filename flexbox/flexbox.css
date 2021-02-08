@@ -14,22 +14,26 @@ body {
      width: 60%;
      text-align: center;
      height: 30vh;
+     width: 80%
  }
 
  .header {
      background-color: rgb(150, 102, 212);
      height: 30vh;
+     width: 60%
 
  }
 
  .sidebar {
     background-color: rgb(189, 82, 88);
     height: 30vh;
+    width: 40%
  }
 
  .menu_item {
     background-color: rgb(71, 68, 109);
     height: 30vh;
+    width: 20%
  }
 
  .footer {
