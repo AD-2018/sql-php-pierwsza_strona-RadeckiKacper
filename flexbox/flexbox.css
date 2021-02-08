@@ -11,32 +11,32 @@ body {
 }
 
  .menu  {
-     width: 100%;
+     width: 60%;
      text-align: center;
-     height: 30vh
+     height: 30vh;
      
  }
 
  .header {
      background-color: rgb(150, 102, 212);
-     height: 25vh
+     height: 25vh;
       }
 
  .sidebar {
     background-color: rgb(189, 82, 88);
-    height: 20vh
+    height: 20vh;
    
  }
 
  .menu_item {
     background-color: rgb(71, 68, 109);
-    height: 15vh
+    height: 15vh;
      
  }
 
  .footer {
     background-color: rgb(180, 147, 202);
-    height: 10vh
+    height: 10vh;
  }
 
 .item_link {
