@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr;
+    grid-template-areas: 
+    "a d e"
+    "a c e"
+    "a b e";
