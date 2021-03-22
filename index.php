@@ -15,7 +15,7 @@
        <a href="/pracownicy/orgPracownicy.php">organizacjaPracownicy.php</a><br/>
         <br/>
         <div>
-       <a href="/Grid/index.html">Grid zadanie1</a><br/>
+       <a href="/Grid/index.html">Grid</a><br/>
         <br/>
         <br/>
        <a href="/pracownicy/funkcAgregujace.php">funkcjeAgregujace.php</a><br/>
