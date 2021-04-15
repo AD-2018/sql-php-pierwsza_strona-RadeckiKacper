@@ -78,7 +78,7 @@
         echo('<th>Id</th><th>Uczen</th>');
         while($row=mysqli_fetch_assoc($result)){
             echo('<tr>');
-            echo('<td>'.$row['id'].'</td><td>'.$row['Uczen'].'</td>');
+            echo('<td>'.$row['id'].'</td><td>'.$row['nazwisko'].'</td>');
             echo('</tr>');
      }
         echo('</table>');
@@ -88,4 +88,5 @@
     </div>
   </body>
 </html>
+
 
