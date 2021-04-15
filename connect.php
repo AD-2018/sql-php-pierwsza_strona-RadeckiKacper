@@ -1,8 +1,8 @@
 <?php
-$servername = "mysql-radeckikacper.alwaysdata.net";
-$username = "217137";
+$servername = "mysql-tather1824.alwaysdata.net";
+$username = "232125";
 $password = "Niedlapsa1";
-$dbname = "radeckikacper_mysql";
+$dbname = "tather1824_grid";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
