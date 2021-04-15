@@ -65,7 +65,7 @@
       <div class="tabela1">
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT * FROM szkola";
+    $sql = "SELECT * FROM Uczen";
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
