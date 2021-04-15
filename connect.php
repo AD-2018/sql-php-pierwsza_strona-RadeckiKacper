@@ -1,6 +1,6 @@
 <?php
 $servername = "mysql-tather1824.alwaysdata.net";
-$username = "232125";
+$username = "232125_baza";
 $password = "Niedlapsa1";
 $dbname = "tather1824_niewiem";
 
