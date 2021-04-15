@@ -65,7 +65,7 @@
       <div class="tabela1">
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT * FROM Firma_projekt";
+    $sql = "SELECT * FROM szkola";
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
@@ -88,3 +88,4 @@
     </div>
   </body>
 </html>
+
