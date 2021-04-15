@@ -39,7 +39,7 @@
       <main>
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT id_szkola, Nauczyciel, nazwisko FROM nauczyciele, szkola, Uczen where nauczyciele.id=szkola.nauczyciele_id and Uczen.id=szkola.uczen_id";
+    $sql = "SELECT szkola.id, Nauczyciel, nazwisko FROM nauczyciele, szkola, Uczen where nauczyciele.id=szkola.nauczyciele_id and Uczen.id=szkola.uczen_id";
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
@@ -52,7 +52,7 @@
         echo('<th>id</th><th>Nauczyciel</th><th>Uczeń</th>');
         while($row=mysqli_fetch_assoc($result)){
             echo('<tr>');
-            echo('<td>'.$row['id_szkola'].'</td><td>'.$row['nazwisko'].'</td><td>'.$row['Nauczyciel'].'</td>');
+            echo('<td>'.$row['id'].'</td><td>'.$row['nazwisko'].'</td><td>'.$row['Nauczyciel'].'</td>');
             echo('</tr>');
      }
         echo('</table>');
