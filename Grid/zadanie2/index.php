@@ -39,7 +39,7 @@
       <main>
       <?php
     require_once("../../connect.php");
-    $sql = "SELECT szpital.id, lekarz, pacjent FROM lekarze, szpital, pacjenci where lekarze.id=szpital.lekarze_id and pacjenci.id=szpital.pacjenci_id";
+    $sql = "SELECT szpital.id, lekarz, pacjent FROM lekarze, szpital, pacjenci where lekarze.id=szpital.lekarz_id and pacjenci.id=szpital.pacjent_id";
     echo("<br>");
     echo($sql);
     $result = mysqli_query($conn, $sql);
