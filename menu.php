@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="style.css">
-<a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a>
-
 <div class="menu">
+<a class="menu_linki" href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a>
+
+
     
 <a class="menu_linki" href="/pracownicy/orgPracownicy.php">organizacjaPracownicy.php</a>
 
