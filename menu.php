@@ -1,25 +1,25 @@
 <link rel="stylesheet" href="style.css">
 <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a>
 
-<div>
-    <ul>
-<li><a href="/pracownicy/orgPracownicy.php">organizacjaPracownicy.php</a></li>
+<div class="menu">
+    
+<a class="menu_linki" href="/pracownicy/orgPracownicy.php">organizacjaPracownicy.php</a>
 
-<li><a href="/Grid/index.html">Grid</a></li>
-
-
-<li><a href="/pracownicy/funkcAgregujace.php">funkcjeAgregujace.php</a></li>
+<a class="menu_linki" href="/Grid/index.html">Grid</a><
 
 
-<li><a href="/pracownicy/data.php">Data i Czas</a></li>
+<a class="menu_linki" href="/pracownicy/funkcAgregujace.php">funkcjeAgregujace.php</a>
+
+
+<a class="menu_linki" href="/pracownicy/data.php">Data i Czas</a>
     
 
-<li><a href="/pracownicy/insert.php">Dane do Bazy</a></li>
+<a class="menu_linki" href="/pracownicy/insert.php">Dane do Bazy</a>
 
 
-<li><a href="/biblioteka/ksiazki.php">Książki</a></li>
+<a class="menu_linki" href="/biblioteka/ksiazki.php">Książki</a>
 
 
-<li><a href="/flexbox/index.html">Flexbox</a></li>
-</ul>
+<a class="menu_linki" href="/flexbox/index.html">Flexbox</a>
+
 </div>
