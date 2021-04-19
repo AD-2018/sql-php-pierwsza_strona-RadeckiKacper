@@ -28,4 +28,7 @@ a:hover{
   background-color: rgb(37, 78, 41);
   padding: 1em;
 }
+menu li{
+  margin: 1cm;
+}
 
