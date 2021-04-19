@@ -39,3 +39,35 @@
     menu li{
         margin: 1cm;
       }
+
+
+      table, th, td {
+        border: 1px solid black;
+      }
+      th {
+        background-color: rgb(180, 53, 230);
+      }
+      table {
+        border-collapse: collapse;
+        width: 50%;
+      }
+      body{
+          background-color: rgb(234, 241, 132);
+      }
+      td {
+        padding: 5px;
+      }
+      a {
+          margin-left: 1rem;
+          font-weight: 500;
+          color: black;
+          padding: 1em;
+          text-decoration: none;
+          background-color: white;
+          border-radius: 4em;
+          width: 4em;
+      }
+      a:hover{
+        background-color: rgb(37, 78, 41);
+        padding: 1em;
+      }
