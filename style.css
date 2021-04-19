@@ -21,7 +21,7 @@ a {
     padding: 1em;
     text-decoration: none;
     background-color: white;
-    border-radius: 6em;
+    border-radius: 2cm;
     width: 9cm;
 }
 a:hover{
@@ -30,5 +30,6 @@ a:hover{
 }
 .menu_linki {
   display: block;
+
 }
 
