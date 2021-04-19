@@ -12,24 +12,9 @@
       <h1>Kacper Radecki nr 10</h1>
     </div>
   </div>  
-  <div class="menu">
-  <a href="/index.php">Strona Główna</a><br/>
-        <br/>
-        <br/>
-       <a href="/pracownicy/orgPracownicy.php">organizacjaPracownicy</a><br/>
-        <br/>
-        <br/>
-       <a href="/pracownicy/funkcAgregujace.php">funkcjeAgregujace</a><br/>
-        <br/>
-        <br/>
-        <a href="/pracownicy/data.php">Data i Czas</a></br>
-    <br/>
-   
-
-<br/>
-        <a href="/biblioteka/ksiazki.php">Książki</a></br>
-    <br/>
-  </div> 
+  <div class = "nav">
+    <?php include_once("../menu.php"); ?>
+    </div>
   <div class="strona">
 <?php
 require_once("../connect.php");
