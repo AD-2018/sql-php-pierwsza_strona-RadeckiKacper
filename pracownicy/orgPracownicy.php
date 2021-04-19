@@ -7,28 +7,8 @@
     <h1>Kacper Radecki nr 10</h1>
 </head>
 <body>
-<div>
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-RadeckiKacper">Github</a></br>
-    <br/>
-    <br/>
-    <br/>
-       <a href="/index.php">Strona Główna</a><br/>
-        <br/>
-        <br/>
-       <a href="/pracownicy/orgPracownicy.php">organizacjaPracownicy</a><br/>
-        <br/>
-        <br/>
-       <a href="/pracownicy/funkcAgregujace.php">funkcjeAgregujace</a><br/>
-        <br/>
-        <br/>
-        <a href="/pracownicy/data.php">Data i Czas</a></br>
-    <br/>
-    
-
-<br/>
-        <a href="/biblioteka/ksiazki.php">Książki</a></br>
-    <br/>
-
+<div class = "nav">
+    <?php include_once("../menu.php"); ?>
     </div>
 </html>
 
