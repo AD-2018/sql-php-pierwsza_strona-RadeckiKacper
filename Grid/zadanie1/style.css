@@ -36,3 +36,6 @@
         grid-area: d;
         height: 33vh;
     }
+    menu li{
+        margin: 1cm;
+      }
