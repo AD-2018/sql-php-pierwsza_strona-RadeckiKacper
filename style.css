@@ -21,8 +21,8 @@ a {
     padding: 1em;
     text-decoration: none;
     background-color: white;
-    border-radius: 4em;
-    width: 4em;
+    border-radius: 6em;
+    width: 6em;
 }
 a:hover{
   background-color: rgb(37, 78, 41);
