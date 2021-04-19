@@ -5,7 +5,7 @@
     
 <a class="menu_linki" href="/pracownicy/orgPracownicy.php">organizacjaPracownicy.php</a>
 
-<a class="menu_linki" href="/Grid/index.html">Grid</a><
+<a class="menu_linki" href="/Grid/index.html">Grid</a>
 
 
 <a class="menu_linki" href="/pracownicy/funkcAgregujace.php">funkcjeAgregujace.php</a>
