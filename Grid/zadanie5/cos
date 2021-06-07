@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<body>
+<body>-
     <div class="contener">
         <div class="a">
     <?php
@@ -24,6 +24,13 @@
     ?>
 </div>
 <div class="b">
+<form method="POST">
+	<label>Imię:    </label><input type="text" name="imie" required></br>
+	<label>Nazwisko:   </label><input type="text" name="nazwisko" required></br>
+	<label>Kraj: </label><input type="text" name="kraj" required></br>
+	<input type="date" name="data_urodzenia" required></br>
+	<input type="submit" value="dodaj pracownika">
+	</form>
 <?php
 
 echo "<li>". $_POST['imie'];
